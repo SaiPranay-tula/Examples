@@ -1,0 +1,25 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaiPranay-tula/Examples.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "sai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaiPranay-tula/Examples/issues"
+  },
+  "homepage": "https://github.com/SaiPranay-tula/Examples#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
