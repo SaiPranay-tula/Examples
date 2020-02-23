@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>JS6</title>
+</head>
+<body>
+    <script>
+var a=[1,2,3,4,5,6,'fg','sd','er','er'];
+for(h in a)
+console.log(h)
+for(h of a)
+console.log(h)
+//F U N C T I O N S
+function add(a,b)
+{   console.info(a+b)
+
+}
+add(4,5);
+// immediadtely invoked functions Expressions
+(function(){
+    alert("hello");
+})();
+//
+(function(a,b){
+ console.log(a+b);
+})(2,8);
+//
+(()=>console.log("no function name"))();
+//
+var dj=function adsum(c,n){
+    console.log("hello add",c+n);
+}
+dj(2,10);
+adsum(10,10);
+
+    </script>
+
+
+
+</body>
+</html>
