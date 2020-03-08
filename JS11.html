@@ -1,0 +1,78 @@
+
+<html>
+<head>
+    <title>JS11</title>
+</head>
+<body>
+<script>
+//        Arrays
+
+
+
+    // Rest Parameters
+    /*
+var g=0;
+function add(...a){
+    
+    a.forEach(id=>g=g+id)
+    console.log(g)
+}
+add(12,3);
+console.log("add function")
+
+
+    //Destructuring Arrays
+let a=[1,2,3];
+let [b,...c]=a;
+console.log(b,"b");
+console.log(c);
+
+
+    //Destructuring objects
+ let obj={name:"helll",age:"er",ename:'hello'}   
+
+ let obj1,obj2;
+ ({obj1,obj2}=obj);
+ console.log(obj,"obj")
+ console.log(obj1,"obj1");
+ conosle.log(obj2,"obj2s");
+
+   // call and apply functions
+*/
+   let obq={
+       a1:"name",
+       b:function(){
+           console.log(this);
+           return this.a
+       },
+       b1:function(a,b){
+           console.log(this);
+           return a+b+this;
+       }
+   }
+
+let v=obq.b.call("names")
+let c=obq.b1.apply("names",[1,2]);
+console.log(c)
+ 
+// Arrow Functions
+
+let fu=()=> console.log("hello");
+
+fu()
+
+
+
+let fun1=(a,b)=>{
+    a=a+b
+
+    return a
+
+        }
+        
+console.log(fun1(1,2))
+
+
+</script>
+</body>
+</html>
